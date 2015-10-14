@@ -1,0 +1,100 @@
+// Place all the styles related to the Pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+    body , html {
+margin:0px;
+padding:0px;
+font-family:"Roboto";
+}
+.header {
+padding-top:50px;
+padding-bottom:50px;
+
+}
+
+
+.nav li a  {
+color:black;
+font-weight:bold;
+font-size:18px;
+}
+
+.header h3 {
+color:black;
+font-weight:bold;
+font-size:18px;
+}
+
+.col-md-3 {
+text-align:center;
+}
+
+.main {
+background-image:url(http://goo.gl/zeJGt3);
+background-size:cover;
+height:650px;
+padding-top:200px;
+text-align:right;
+
+}
+
+.main h1 {
+text-align:right;
+color:white;
+font-weight:bold;
+font-size:40px;
+margin-top:-10px;
+}
+
+.main h1 span {
+background-color: #42CDED;
+
+}
+
+.main h1:nth-child(2) {
+margin-bottom:50px;
+}
+
+.main a:hover {
+background-color:#42CDED;
+text-decoration:none;
+transition-duration:.9s;
+}
+
+
+.main a {
+padding:20px 40px 20px 40px;
+color:white;
+font-size:18px;
+background-color:#05425F;
+
+}
+
+.footer {
+
+text-align:right;
+margin-top:100px;
+
+}
+
+.footer p{
+margin-bottom:50px;
+}
+
+.inline img {
+width:30px;
+height:30px;
+}
+
+
+
+
+
+@media (max-width:700px)
+{
+.nav {
+width:100%;
+text-align:center;
+}
+}
