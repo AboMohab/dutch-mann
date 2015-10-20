@@ -5,14 +5,58 @@
   <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
   <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
- 
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
+   <%= javascript_include_tag "application" %>
+     
 </head>
 <body>
-
+<div class="header ">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-1"></div>
+     	 <div class="col-md-7">
+       	 <ul class= " nav navbar-nav">
+           <li class="active" ><%= link_to root_path do %>Welcome<%end%></li>
+           <li><%= link_to pages_portfolio_path do %>Portfolio<%end%></li>
+           <li><a href="#">Blog</a></li>
+             <li><a href="#">About</a></li>
+             <li><a href="#">Contact</a></li>
+          </ul>
+         </div>
+      
+      <div class="col-md-3">
+        <h3>Abo Mohab</h3>
+      </div>
+      
+      <div class="col-md-1"></div>
+    </div>
+  </div>
+</div>
+  
 <%= yield %>
 
+  
+  <div class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-1"></div>
+      
+      <div id="footer" class="col-md-10">
+        <div class="inline">
+       <a href="#"> <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSc-CVky3U-9hgX1FmeNXNSDTjGoD1B4jWM48qgLhpCk7HA0p6N" /> </a>
+         <a href="#"> <img src="http://static1.squarespace.com/static/52440ddbe4b03b33d728e5ea/53c64093e4b0375fd98e1cac/53c64093e4b0375fd98e1cb0/1412749046621/linkedin.png" /> </a>
+         <a href="#"> <img src =" http://dandelion.github.io/slides/dandelion-0.10.0/assets/images/logo_github_small.gif" /></a>
+        </div><br>
+
+    <p>&copy all rights reserved, Abo Mohab 2015</p>
+
+        </div>
+          <div class="col-md-1"></div>
+    </div>
+  </div>
+</div>
+  
 </body>
 </html>

@@ -82,12 +82,31 @@ margin-top:100px;
 margin-bottom:50px;
 }
 
+ #footer {
+text-align:right;
+} 
+
 .inline img {
 width:30px;
 height:30px;
 }
 
+.banner { position: relative; overflow: hidden; width:1195px; height:450px; margin-left:-50px; }
+.banner li { list-style: none; }
+.banner ul li { float: left; }
 
+.banner ul li img{ width:1195px; height:450px; }
+
+.supporting {
+margin-top:50px;
+margin-bottom: 150px;
+}
+
+.supporting .app:hover{
+color:#4cd3d3;
+text-decoration:none;
+transition-duration:.9s;
+}
 
 
 
