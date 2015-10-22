@@ -93,11 +93,11 @@ width:30px;
 height:30px;
 }
 
-.banner { position: relative; overflow: hidden; width:1150px; height:450px; }
+.banner { position: relative; overflow: hidden; }
 .banner li { list-style: none; }
 .banner ul li { float: left; }
 
-.banner ul li img{ width:1150px; height:450px; }
+
 
 .supporting {
 margin-top:50px;
@@ -110,15 +110,38 @@ text-decoration:none;
 transition-duration:.9s;
 }
 
-.supporting .row{
-margin-bottom:25px;
+ .supporting .row .col-md-5{
+margin-bottom:40px;
 }
 
+.photo {
+text-align:right;
+}
 
+.text h2 span {
+font-weight:bold;
+background-color:#404040;
+color:white;
+padding-left:5px;
+padding-right:5px;
+}
+
+.text p span {
+background-color:#404040;
+color:white;
+font-weight:bold;
+font-size:14px;
+padding-left:5px;
+padding-right:5px;
+}
 @media (max-width:700px)
 {
 .nav {
 width:100%;
+text-align:center;
+}
+
+.photo , .text {
 text-align:center;
 }
 }
