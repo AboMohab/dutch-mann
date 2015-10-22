@@ -93,10 +93,9 @@ width:30px;
 height:30px;
 }
 
-.banner { position: relative; overflow: hidden; }
+.banner { position: relative; overflow: hidden; width:1300px; height:400px;margin-left:-50px; }
 .banner li { list-style: none; }
-.banner ul li { float: left; }
-
+.banner ul li img { float: left;  overflow: hidden; width:100% ;height:400px; }
 
 
 .supporting {
@@ -114,27 +113,41 @@ transition-duration:.9s;
 margin-bottom:40px;
 }
 
+
 .photo {
 text-align:right;
+
+}
+
+.photo img {
+box-shadow:5px 5px 5px #8e0b5e;
+width:180px;
+height:200px;
 }
 
 .text h2 span {
 font-weight:bold;
-background-color:#404040;
+background-color:#8e0b5e;
 color:white;
 padding-left:5px;
 padding-right:5px;
+box-shadow:5px 5px 5px #8e0b5e;
+}
+
+.text p {
+font-size:15px;
 }
 
 .text p span {
-background-color:#404040;
+background-color:#8e0b5e;
 color:white;
 font-weight:bold;
-font-size:14px;
+font-size:16px;
 padding-left:5px;
 padding-right:5px;
+box-shadow:5px 5px 5px #8e0b5e;
 }
-@media (max-width:700px)
+@media (max-width:900px)
 {
 .nav {
 width:100%;
