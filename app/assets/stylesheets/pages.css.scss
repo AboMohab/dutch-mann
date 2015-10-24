@@ -157,12 +157,102 @@ box-shadow:5px 5px 5px #8e0b5e;
 border-bottom:1px solid #474343;
 margin-bottom:50px;
 }
+.contacts {
+text-align:center;
+}
+
+.contacts .row .col-md-8 .social {
+text-align:center;
+dispaly:inline-block;
+}
+
+.contacts img {
+width:50px;
+height:40px;
+
+}
+
+.facebook  {
+background-color:#3B5998;
+padding:15px 30px 15px 30px;
+text-align:center;
+dispaly:inline-block;
+margin:20px 2px 20px 2px;
+
+}
+
+.twitter  {
+background-color:#55ACEE;
+padding:15px 30px 15px 30px;
+text-align:center;
+dispaly:inline-block;
+margin:20px 2px 20px 2px;
+}
+
+.google  {
+background-color:#D73D32;
+padding:15px 30px 15px 30px;
+text-align:center;
+dispaly:inline-block;
+margin:20px 2px 20px 2px;
+}
+
+.linkedin  {
+background-color:#0173B2;
+padding:15px 30px 15px 30px;
+text-align:center;
+dispaly:inline-block;
+margin:20px 2px 20px 2px;
+}
+
+.whatsapp  {
+background-color:#109D58;
+padding:15px 30px 15px 30px;
+text-align:center;
+dispaly:inline-block;
+margin:20px 2px 20px 2px;
+} 
+
+.email  {
+background-color:#f4dd7f;
+padding:15px 30px 15px 30px;
+text-align:center;
+dispaly:inline-block;
+margin:20px 2px 20px 2px;
+} 
+
+
+.facebook:hover ,.twitter:hover ,.google:hover , .linkedin:hover ,.whatsapp:hover ,.email:hover  {
+text-decoration:none;
+box-shadow:5px 5px 5px #8dafbf;
+border:1px solid #8dafbf ;
+
+
+
+}
 
 @media (max-width:700px)
 {
 .nav {
 width:100%;
 text-align:center;
+} 
+
+.contacts{
+text-align:center;
+}
+.facebook ,.twitter , .google, .linkedin , .whatsapp , .email {
+padding-left:50%;
+padding-right:50%;
+display:block;
+margin:none;
+text-align:center;
+height:60px;
+
+}
+
+.facebook img ,.twitter img, .google img,.linkedin img, .whatsapp img ,.email img {
+margin-top:-7px;
 }
 }
 
@@ -171,6 +261,7 @@ text-align:center;
 .photo , .text {
 text-align:center;
 }
+
 }
 
 
