@@ -15,7 +15,21 @@
 //= require turbolinks
 //= require_tree .
 //= require unslider   
-$(function() {
-    $('.banner').unslider();
-});
+//$(function() {
+  //  $('.banner').unslider();
+//});
+
+/*$(document).ready(function(){
+  $('.facebook').mouseenter(function(){
+    $('#face').show();
+  });
+  
+  $('.facebook').mouseleave(function(){
+    $('#face').hide();
+  });
+  
+});*/
+
+
+
 
