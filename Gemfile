@@ -40,5 +40,6 @@ gem 'unslider-rails', github: 'nunopolonia/unslider-rails'
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+
 gem 'tzinfo-data', platforms:[:x64_mingw,:mingw,:mswin]
 gem 'coffee-script-source' ,'1.8.0'
