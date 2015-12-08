@@ -1,0 +1,272 @@
+// Place all the styles related to the Pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+    body , html {
+margin:0px;
+padding:0px;
+font-family:"Roboto";
+}
+.header {
+padding-top:50px;
+padding-bottom:50px;
+
+}
+
+
+.nav li a  {
+color:black;
+font-weight:bold;
+font-size:18px;
+}
+
+.header h3 {
+color:black;
+font-weight:bold;
+font-size:18px;
+}
+
+.col-md-3 {
+text-align:center;
+}
+
+.main {
+background-image:url(http://blog.libertybishop.co.uk/wp-content/uploads/2014/03/germany-4.jpg);
+background-size:cover;
+height:650px;
+padding-top:200px;
+text-align:right;
+
+}
+
+.main h1 {
+text-align:right;
+color:white;
+font-weight:bold;
+font-size:40px;
+margin-top:-10px;
+}
+
+.main h1 span {
+padding-left:10px;
+margin-right:10px;
+background-color: #3aa0e0;
+
+}
+
+.main h1:nth-child(2) {
+margin-bottom:50px;
+}
+
+.main a:hover {
+background-color:#42CDED;
+text-decoration:none;
+transition-duration:.9s;
+}
+
+
+.main a {
+padding:20px 40px 20px 40px;
+color:white;
+font-size:18px;
+background-color:#05425F;
+
+}
+
+.footer {
+
+text-align:right;
+margin-top:100px;
+
+}
+
+.footer p{
+margin-bottom:50px;
+}
+
+ #footer {
+text-align:right;
+} 
+
+.inline img {
+width:30px;
+height:30px;
+}
+
+.banner { position: relative; overflow: hidden; width:1315px; height:400px;margin-left:-50px; }
+.banner li { list-style: none; }
+.banner ul li img { float: left;  overflow: hidden; width:100% ;height:400px; }
+
+
+.supporting {
+margin-top:50px;
+margin-bottom: 150px;
+}
+
+.supporting .app:hover{
+color:#4cd3d3;
+text-decoration:none;
+transition-duration:.9s;
+}
+
+ .supporting .row .col-md-5{
+margin-bottom:40px;
+}
+
+.about {
+margin-top:80px;
+margin-bottom:100px;
+}
+
+
+.photo {
+text-align:right;
+
+}
+
+.photo img {
+box-shadow:5px 5px 5px #8e0b5e;
+width:180px;
+height:200px;
+}
+
+.text h2 span {
+font-weight:bold;
+background-color:#8e0b5e;
+color:white;
+padding-left:5px;
+padding-right:5px;
+box-shadow:5px 5px 5px #8e0b5e;
+}
+
+.text p {
+font-size:15px;
+}
+
+.text p span {
+background-color:#8e0b5e;
+color:white;
+font-weight:bold;
+font-size:16px;
+padding-left:5px;
+padding-right:5px;
+box-shadow:5px 5px 5px #8e0b5e;
+}
+
+.line {
+border-bottom:1px solid #474343;
+margin-bottom:50px;
+}
+.contacts {
+text-align:center;
+margin-top:30px;
+margin-bottom:250px;
+}
+
+.contacts .row .col-md-8 .social {
+text-align:center;
+dispaly:inline-block;
+}
+
+.contacts img {
+width:50px;
+height:40px;
+
+}
+#contct {
+font-weight:bold;
+}
+
+.facebook  {
+background-color:#3B5998;
+padding:15px 30px 15px 30px;
+text-align:center;
+dispaly:inline-block;
+margin:20px 2px 20px 2px;
+
+}
+
+.twitter  {
+background-color:#55ACEE;
+padding:15px 30px 15px 30px;
+text-align:center;
+dispaly:inline-block;
+margin:20px 2px 20px 2px;
+}
+
+.google  {
+background-color:#D73D32;
+padding:15px 30px 15px 30px;
+text-align:center;
+dispaly:inline-block;
+margin:20px 2px 20px 2px;
+}
+
+.linkedin  {
+background-color:#0173B2;
+padding:15px 30px 15px 30px;
+text-align:center;
+dispaly:inline-block;
+margin:20px 2px 20px 2px;
+}
+
+.whatsapp  {
+background-color:#109D58;
+padding:15px 30px 15px 30px;
+text-align:center;
+dispaly:inline-block;
+margin:20px 2px 20px 2px;
+} 
+
+.email  {
+background-color:#f4dd7f;
+padding:15px 30px 15px 30px;
+text-align:center;
+dispaly:inline-block;
+margin:20px 2px 20px 2px;
+} 
+
+
+.facebook:hover ,.twitter:hover ,.google:hover , .linkedin:hover ,.whatsapp:hover ,.email:hover  {
+text-decoration:none;
+box-shadow:5px 5px 5px #8dafbf;
+border:1px solid #8dafbf ;
+
+
+
+}
+
+@media (max-width:700px)
+{
+.nav {
+width:100%;
+text-align:center;
+} 
+
+.contacts{
+text-align:center;
+}
+.facebook ,.twitter , .google, .linkedin , .whatsapp , .email {
+padding-left:50%;
+padding-right:50%;
+display:block;
+margin:none;
+text-align:center;
+height:60px;
+
+}
+
+.facebook img ,.twitter img, .google img,.linkedin img, .whatsapp img ,.email img {
+margin-top:-7px;
+}
+}
+
+@media (max-width:1000px)
+{
+.photo , .text {
+text-align:center;
+}
+
+}
+
+
